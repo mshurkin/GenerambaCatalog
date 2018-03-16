@@ -1,0 +1,26 @@
+{% include 'header' %}
+
+protocol {{ module_info.name }}ViewInput: class {
+
+}
+
+protocol {{ module_info.name }}ViewOutput {
+
+    func viewDidLoad()
+}
+
+// MARK: - Interactor
+
+protocol {{ module_info.name }}InteractorInput {
+
+}
+
+protocol {{ module_info.name }}InteractorOutput: class {
+
+}
+
+// MARK: - Router
+
+protocol {{ module_info.name }}RouterInput {
+
+}

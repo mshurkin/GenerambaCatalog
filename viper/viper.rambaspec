@@ -1,0 +1,15 @@
+# Template information section
+name: viper
+summary: Viper module template
+author: Maxim Shurkin
+version: 1.0.0
+license: MIT
+
+# The declarations for code files
+code_files:
+- {name: Api.swift, path: Code/api.swift.liquid}
+- {name: Configurator.swift, path: Code/configurator.swift.liquid}
+- {name: ViewController.swift, path: Code/viewcontroller.swift.liquid}
+- {name: Presenter.swift, path: Code/presenter.swift.liquid}
+- {name: Interactor.swift, path: Code/interactor.swift.liquid}
+- {name: Router.swift, path: Code/router.swift.liquid}
